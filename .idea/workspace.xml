@@ -10,8 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="213c64b5-9123-4c22-8419-70c6c7498c22" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="213c64b5-9123-4c22-8419-70c6c7498c22" name="默认更改列表" comment="1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +82,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617362613252</updated>
-      <workItem from="1617362619024" duration="1744000" />
+      <workItem from="1617362619024" duration="4154000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1617364543097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617364543097</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,17 +108,37 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="907" y="423" key="#Notifications" timestamp="1617362686271">
       <screen x="0" y="0" width="2048" height="1122" />
     </state>
     <state x="907" y="423" key="#Notifications/0.0.2048.1122@0.0.2048.1122" timestamp="1617362686271" />
+    <state width="2005" height="157" key="GridCell.Tab.0.bottom" timestamp="1617366195948">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="157" key="GridCell.Tab.0.bottom/0.0.2048.1122@0.0.2048.1122" timestamp="1617366195948" />
+    <state width="2005" height="157" key="GridCell.Tab.0.center" timestamp="1617366195948">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="157" key="GridCell.Tab.0.center/0.0.2048.1122@0.0.2048.1122" timestamp="1617366195948" />
+    <state width="2005" height="157" key="GridCell.Tab.0.left" timestamp="1617366195948">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="157" key="GridCell.Tab.0.left/0.0.2048.1122@0.0.2048.1122" timestamp="1617366195948" />
+    <state width="2005" height="157" key="GridCell.Tab.0.right" timestamp="1617366195948">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="157" key="GridCell.Tab.0.right/0.0.2048.1122@0.0.2048.1122" timestamp="1617366195948" />
     <state x="526" y="206" key="SettingsEditor" timestamp="1617363167757">
       <screen x="0" y="0" width="2048" height="1122" />
     </state>
     <state x="526" y="206" key="SettingsEditor/0.0.2048.1122@0.0.2048.1122" timestamp="1617363167757" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/EconPolicySim$main.coverage" NAME="main Coverage Results" MODIFIED="1617364369161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EconPolicySim$main.coverage" NAME="main Coverage Results" MODIFIED="1617366195940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
