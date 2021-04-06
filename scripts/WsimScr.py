@@ -8,16 +8,29 @@
 import numpy as np
 
 
-def WealthChag(list, i):
+def WealthCurrency(list_WC, i, weath):
     isDebt = 0
-    if list[i] > 0 or isDebt:
-        list[i] -= 100
-        list[np.random.randint(0, len(list))] += 100
+    list_RT = RandomTrend(list_WC, weath)
+    if list_WC[i] > 0 or isDebt:
+        list_WC[i] -= (weath / 100)
+        list_sort_WC = list_WC.copy()
+        list_sort_WC.sort()
+        list_WC[list_WC.index(np.random.choice(list_sort_WC, p=np.array(list_RT).ravel()))] += (weath / 100)
     else:
         pass
 
 
-def YearChag(list, year):
+def RandomTrend(list_RT, weath):
+    list_sort_RT = list_RT.copy()
+    list_sort_RT.sort()
+    i = 0
+    while i < len(list_RT):
+        list_sort_RT[i] = list_sort_RT[i] / (len(list_RT) * weath)
+        i += 1
+    return list_sort_RT
+
+
+def YearChag(list_, year, weath):
     for i in range(0, 364 * year):  # i为一天
-        for j in range(len(list)):  # j为单位index
-            WealthChag(list, j)
+        for j in range(len(list_)):  # j为单位index
+            WealthCurrency(list_, j, weath)

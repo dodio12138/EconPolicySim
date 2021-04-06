@@ -12,10 +12,11 @@ from scripts import WsimScr as Ws
 import time
 
 unit_num = 50
-units = [10000 for x in range(0, unit_num)]
-year = 20
+unit_weath = 100
+units = [100 for x in range(0, unit_num)]
+year = 5
 t1 = time.perf_counter()
-Ws.YearChag(units, year)  # 单位年演化
+Ws.YearChag(units, year, unit_weath)  # 单位年演化
 t2 = time.perf_counter()
 
 units_sort = units.copy()  # 重新排序
