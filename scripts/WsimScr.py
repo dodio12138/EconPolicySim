@@ -25,12 +25,13 @@ def RandomTrend(list_RT, weath):
     list_sort_RT.sort()
     i = 0
     while i < len(list_RT):
-        list_sort_RT[i] = list_sort_RT[i] / (len(list_RT) * weath)
+        if list_sort_RT[i] > 0:
+            list_sort_RT[i] = list_sort_RT[i] / (len(list_RT) * weath)
         i += 1
     return list_sort_RT
 
 
 def YearChag(list_, year, weath):
-    for i in range(0, 364 * year):  # i为一天
+    for i in range(0, int(364 * year)):  # i为一天
         for j in range(len(list_)):  # j为单位index
             WealthCurrency(list_, j, weath)
