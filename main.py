@@ -8,7 +8,6 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.font_manager import FontProperties
 
 length = 50
 data = np.zeros((50, 1), dtype=float)

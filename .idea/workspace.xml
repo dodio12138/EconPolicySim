@@ -11,9 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="213c64b5-9123-4c22-8419-70c6c7498c22" name="默认更改列表" comment="1">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WSim.py" beforeDir="false" afterPath="$PROJECT_DIR$/WSim.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/WsimScr.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/WsimScr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -43,9 +45,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
   </component>
-  <component name="RunManager" selected="Python.WSim">
+  <component name="RunManager" selected="Python.gui">
     <configuration name="WSim" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EconPolicySim" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,6 +62,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WSim.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EconPolicySim" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gui" />
         <item itemvalue="Python.WSim" />
         <item itemvalue="Python.main" />
       </list>
@@ -111,6 +136,12 @@
       <workItem from="1617418527457" duration="10391000" />
       <workItem from="1617588452628" duration="228000" />
       <workItem from="1617704201540" duration="9795000" />
+      <workItem from="1617774811449" duration="779000" />
+      <workItem from="1617775614115" duration="556000" />
+      <workItem from="1617776193530" duration="395000" />
+      <workItem from="1617776604038" duration="89000" />
+      <workItem from="1617776705333" duration="2043000" />
+      <workItem from="1617950861429" duration="170000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1617364543097</created>
@@ -160,30 +191,38 @@
       <screen x="0" y="0" width="2048" height="1122" />
     </state>
     <state x="907" y="423" key="#Notifications/0.0.2048.1122@0.0.2048.1122" timestamp="1617362686271" />
-    <state width="1493" height="108" key="GridCell.Tab.0.bottom" timestamp="1617720343623">
+    <state x="479" y="270" key="#com.intellij.tools.ToolEditorDialog" timestamp="1617775006698">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="108" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.720.1249@0.0.1536.834" timestamp="1617720343623" />
+    <state x="479" y="270" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.834/1920.0.720.1249@0.0.1536.834" timestamp="1617775006698" />
+    <state x="541" y="172" key="FileChooserDialogImpl" timestamp="1617951005884">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="541" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.0.720.1249@0.0.1536.834" timestamp="1617951005884" />
+    <state width="1495" height="91" key="GridCell.Tab.0.bottom" timestamp="1617951032886">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1495" height="91" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.720.1249@0.0.1536.834" timestamp="1617951032886" />
     <state width="2005" height="157" key="GridCell.Tab.0.bottom/0.0.2048.1122@0.0.2048.1122" timestamp="1617588663094" />
-    <state width="1493" height="108" key="GridCell.Tab.0.center" timestamp="1617720343623">
+    <state width="1495" height="91" key="GridCell.Tab.0.center" timestamp="1617951032886">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="108" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.720.1249@0.0.1536.834" timestamp="1617720343623" />
+    <state width="1495" height="91" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.720.1249@0.0.1536.834" timestamp="1617951032886" />
     <state width="2005" height="157" key="GridCell.Tab.0.center/0.0.2048.1122@0.0.2048.1122" timestamp="1617588663093" />
-    <state width="1493" height="108" key="GridCell.Tab.0.left" timestamp="1617720343623">
+    <state width="1495" height="91" key="GridCell.Tab.0.left" timestamp="1617951032886">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="108" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.720.1249@0.0.1536.834" timestamp="1617720343623" />
+    <state width="1495" height="91" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.720.1249@0.0.1536.834" timestamp="1617951032886" />
     <state width="2005" height="157" key="GridCell.Tab.0.left/0.0.2048.1122@0.0.2048.1122" timestamp="1617588663093" />
-    <state width="1493" height="108" key="GridCell.Tab.0.right" timestamp="1617720343623">
+    <state width="1495" height="91" key="GridCell.Tab.0.right" timestamp="1617951032886">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="108" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.720.1249@0.0.1536.834" timestamp="1617720343623" />
+    <state width="1495" height="91" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.720.1249@0.0.1536.834" timestamp="1617951032886" />
     <state width="2005" height="157" key="GridCell.Tab.0.right/0.0.2048.1122@0.0.2048.1122" timestamp="1617588663093" />
-    <state x="422" y="73" key="SettingsEditor" timestamp="1617704338291">
+    <state x="447" y="45" width="927" height="707" key="SettingsEditor" timestamp="1617777578731">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="422" y="73" key="SettingsEditor/0.0.1536.834/1920.0.720.1249@0.0.1536.834" timestamp="1617704338291" />
+    <state x="447" y="45" width="927" height="707" key="SettingsEditor/0.0.1536.834/1920.0.720.1249@0.0.1536.834" timestamp="1617777578731" />
     <state x="526" y="206" key="SettingsEditor/0.0.2048.1122@0.0.2048.1122" timestamp="1617363167757" />
     <state x="70" y="69" width="1397" height="696" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1617705747563">
       <screen x="0" y="0" width="1536" height="834" />
@@ -200,7 +239,8 @@
     <state x="786" y="435" width="617" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.2048.1122@0.0.2048.1122" timestamp="1617436763580" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/EconPolicySim$WSim.coverage" NAME="WSim Coverage Results" MODIFIED="1617716779280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EconPolicySim$WSim.coverage" NAME="WSim Coverage Results" MODIFIED="1617777132252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EconPolicySim$gui.coverage" NAME="gui Coverage Results" MODIFIED="1617950872229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EconPolicySim$main.coverage" NAME="main Coverage Results" MODIFIED="1617419202485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
